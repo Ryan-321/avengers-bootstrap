@@ -1,0 +1,43 @@
+p{
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+/*******   NAVBAR    *********/
+a:hover{
+  background-color: #cc0000;
+  color: #fff;
+  border-radius: 10px;
+}
+button.navbar-toggle.collapsed{
+  border: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #cc0000;
+}
+/*******   BUTTONS    *********/
+.btn-index{
+  display: block;
+  margin: 1em auto;
+}
+
+/*******   IMAGES    *********/
+.professor-img{
+  float: left;
+  margin: .5em;
+}
+.img-circle{
+  display: block;
+  margin: 1em auto;
+}
+.soc-icons{
+  margin-right: 1em;
+}
+/*******   FOOTER    *********/
+.footer p{
+  margin: 15px;
+}
+.footer{
+  background: black;
+  color: #fff;
+}
