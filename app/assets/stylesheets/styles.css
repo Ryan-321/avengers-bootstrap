@@ -1,0 +1,61 @@
+h3{
+  margin: 0;
+}
+p{
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+.carousel-caption{
+  position: static;
+}
+.carousel-indicators{
+  bottom: 0;
+}
+/*******   NAVBAR    *********/
+button.navbar-toggle.collapsed{
+  border: none;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #cc0000;
+}
+/*******   BUTTONS    *********/
+.btn-index{
+  display: block;
+  margin: 1em auto;
+}
+
+/*******   IMAGES    *********/
+.professor-img{
+  float: left;
+  margin: .5em;
+}
+.carousel-img{
+  margin: 0 auto;
+}
+.img-circle{
+  display: block;
+  margin: 1em auto;
+}
+.avenger-u-banner{
+  margin-bottom: 2em;
+}
+.soc-icons{
+  margin-right: 1em;
+}
+/*******   FOOTER    *********/
+.footer p{
+  margin: 15px;
+}
+.footer{
+  background: black;
+  color: #fff;
+}
+/*******   MEDIA QUERIES    *********/
+@media (max-width: 500px) {
+    .hulk-img {
+        float: none;
+        display: block;
+        margin: 1em auto;
+    }
+}
+/*******   END   *********/
