@@ -50,3 +50,11 @@ button.navbar-toggle.collapsed{
   background: black;
   color: #fff;
 }
+/*******   MEDIA QUERIES    *********/
+@media (max-width: 500px) {
+    .hulk-img {
+        float: none;
+        display: block;
+        margin: 1em auto;
+    }
+}

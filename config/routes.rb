@@ -19,4 +19,5 @@ Rails.application.routes.draw do
   get '/hulk', to: 'professors#hulk'
   get '/thor', to: 'professors#thor'
   get '/hawkeye', to: 'professors#hawkeye'
+  get '/loki', to: 'professors#loki'
 end
