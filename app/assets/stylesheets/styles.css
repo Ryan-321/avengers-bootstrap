@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*******   ELEMENTS    *********/
+>>>>>>> gh-pages
 h3{
   margin: 0;
 }
@@ -5,12 +9,15 @@ p{
   line-height: 1.5;
   letter-spacing: 1px;
 }
+<<<<<<< HEAD
 .carousel-caption{
   position: static;
 }
 .carousel-indicators{
   bottom: 0;
 }
+=======
+>>>>>>> gh-pages
 /*******   NAVBAR    *********/
 button.navbar-toggle.collapsed{
   border: none;
@@ -18,12 +25,34 @@ button.navbar-toggle.collapsed{
 .navbar-default .navbar-toggle .icon-bar{
   background-color: #cc0000;
 }
+<<<<<<< HEAD
+=======
+.navbar-default{
+  background-color: #fff;
+  border-color: #fff;
+}
+.navbar{
+  margin-bottom: 5px;
+}
+#navbar-collapse ul li a{
+  font-size: 1.4em;
+  transition: color 1s;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#navbar-collapse ul li a:hover{
+  color: #cc0000;
+}
+>>>>>>> gh-pages
 /*******   BUTTONS    *********/
 .btn-index{
   display: block;
   margin: 1em auto;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> gh-pages
 /*******   IMAGES    *********/
 .professor-img{
   float: left;
@@ -42,6 +71,12 @@ button.navbar-toggle.collapsed{
 .soc-icons{
   margin-right: 1em;
 }
+<<<<<<< HEAD
+=======
+.avengers-slider img{
+  width: auto;
+}
+>>>>>>> gh-pages
 /*******   FOOTER    *********/
 .footer p{
   margin: 15px;
@@ -50,6 +85,18 @@ button.navbar-toggle.collapsed{
   background: black;
   color: #fff;
 }
+<<<<<<< HEAD
+=======
+/*******   CAROUSEL    *********/
+.carousel-caption{
+  position: static;
+}
+.carousel-indicators{
+  bottom: 0;
+}
+/*******   ACCORDIAN    *********/
+
+>>>>>>> gh-pages
 /*******   MEDIA QUERIES    *********/
 @media (max-width: 500px) {
     .hulk-img {
@@ -58,3 +105,7 @@ button.navbar-toggle.collapsed{
         margin: 1em auto;
     }
 }
+<<<<<<< HEAD
+=======
+/*******   END   *********/
+>>>>>>> gh-pages
