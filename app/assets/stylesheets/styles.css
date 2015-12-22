@@ -1,15 +1,10 @@
+/*******   ELEMENTS    *********/
 h3{
   margin: 0;
 }
 p{
   line-height: 1.5;
   letter-spacing: 1px;
-}
-.carousel-caption{
-  position: static;
-}
-.carousel-indicators{
-  bottom: 0;
 }
 /*******   NAVBAR    *********/
 button.navbar-toggle.collapsed{
@@ -18,12 +13,27 @@ button.navbar-toggle.collapsed{
 .navbar-default .navbar-toggle .icon-bar{
   background-color: #cc0000;
 }
+.navbar-default{
+  background-color: #fff;
+  border-color: #fff;
+}
+.navbar{
+  margin-bottom: 5px;
+}
+#navbar-collapse ul li a{
+  font-size: 1.4em;
+  transition: color 1s;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+#navbar-collapse ul li a:hover{
+  color: #cc0000;
+}
 /*******   BUTTONS    *********/
 .btn-index{
   display: block;
   margin: 1em auto;
 }
-
 /*******   IMAGES    *********/
 .professor-img{
   float: left;
@@ -42,6 +52,9 @@ button.navbar-toggle.collapsed{
 .soc-icons{
   margin-right: 1em;
 }
+.avengers-slider img{
+  width: auto;
+}
 /*******   FOOTER    *********/
 .footer p{
   margin: 15px;
@@ -50,6 +63,15 @@ button.navbar-toggle.collapsed{
   background: black;
   color: #fff;
 }
+/*******   CAROUSEL    *********/
+.carousel-caption{
+  position: static;
+}
+.carousel-indicators{
+  bottom: 0;
+}
+/*******   ACCORDIAN    *********/
+
 /*******   MEDIA QUERIES    *********/
 @media (max-width: 500px) {
     .hulk-img {
