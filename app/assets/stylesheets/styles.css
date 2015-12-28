@@ -41,6 +41,10 @@ button.navbar-toggle.collapsed{
   display: block;
   margin: 1em auto;
 }
+.jumbotron button{
+  margin: 1em;
+  font-size: 1.5em;
+}
 /*******   IMAGES    *********/
 .professor-img{
   float: left;
@@ -81,11 +85,20 @@ button.navbar-toggle.collapsed{
 
 
 /*******   MEDIA QUERIES    *********/
+@media (max-width: 990px){
+  .avengers-slider{
+    display: none;
+  }
+}
 @media (max-width: 500px) {
     .hulk-img {
         float: none;
         display: block;
         margin: 1em auto;
     }
+    .avengers-slider{
+      display: none;
+    }
 }
+
 /*******   END   *********/
