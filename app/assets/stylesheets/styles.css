@@ -96,7 +96,7 @@ button.navbar-toggle.collapsed{
         display: block;
         margin: 1em auto;
     }
-    .avengers-slider{
+    .avengers-slider, .slider{
       display: none;
     }
 }
